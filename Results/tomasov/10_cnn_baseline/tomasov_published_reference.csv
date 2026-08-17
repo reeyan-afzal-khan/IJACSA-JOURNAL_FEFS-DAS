@@ -1,0 +1,4 @@
+source,preproc,accuracy,f1_macro
+Tomasov et al. 2025 (their own split),MFCC,85.61,84.72
+Tomasov et al. 2025 (their own split),RDFT,85.47,84.84
+Tomasov et al. 2025 (their own split),DWT,78.48,75.84

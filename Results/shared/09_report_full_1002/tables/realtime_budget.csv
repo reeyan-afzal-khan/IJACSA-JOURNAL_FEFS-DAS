@@ -1,0 +1,3 @@
+dataset,window arrival interval (ms),feature extraction (ms),inference (ms),total (ms),real-time on 1 core,cores needed
+cao,204.8,122.54,0.0624,122.6,yes,1
+tomasov,102.4,144.59,0.1716,144.77,no,2

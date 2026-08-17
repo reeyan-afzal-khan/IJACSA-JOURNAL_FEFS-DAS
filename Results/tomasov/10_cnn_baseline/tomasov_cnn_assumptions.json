@@ -1,0 +1,36 @@
+{
+  "source": "Tomasov et al., IEEE Access 13, 2025, Sections III-C, III-E, IV",
+  "read_from_paper": {
+    "conv_filters": [
+      64,
+      256
+    ],
+    "activation": "LeakyReLU",
+    "pool_size": 4,
+    "dense_units": 256,
+    "dense_activation": "sigmoid",
+    "output_activation": "softmax",
+    "optimiser": "Adam",
+    "class_weighted_loss": true,
+    "split": "80/10/10",
+    "rdft_bins": 2048,
+    "rdft_freq_range_hz": [
+      0,
+      833
+    ],
+    "dwt_level": 3,
+    "dwt_wavelet": "db4",
+    "window": 8192,
+    "their_stride": 256
+  },
+  "inferred_or_substituted": {
+    "kernel_size": "7, from Table 21 of our manuscript (not stated in the Access paper)",
+    "rdft_redundancy": "6, derived from 2048 bins <-> 0-833 Hz at fs=20 kHz",
+    "epochs": 30,
+    "batch_size": 256,
+    "learning_rate": 0.0001,
+    "mfcc_params": "n_mfcc=40, hop=512; librosa if importable, otherwise an equivalent scipy mel/DCT implementation",
+    "split": "our blocked spatio-temporal split, NOT their random 10-fold"
+  },
+  "our_dense_1024_variant": "reproduces Table 21 (33,155,849 params) for traceability"
+}

@@ -88,7 +88,29 @@ the configuration cell and run each twice.
 | 06 | `06_balancing_and_model_benchmark` | 7 models × 6 strategies, domain comparison, grouped CV |
 | 07 | `07_final_model_and_ablation` | per-class report, confusion matrices, class-removal ablation |
 | 08 | `08_cross_dataset_generalisation` | parallel benchmark, cross-system transfer, LODO/LORO |
-| 09 | `09_statistics_efficiency_and_report` | Friedman/Nemenyi, CNN baseline, efficiency, all export tables |
+| 09 | `09_statistics_efficiency_and_report` | Friedman/Nemenyi, efficiency, all export tables |
+| 10 | `10_cao_cnn_baseline` | Cao's own 2D CNN (7,421 params) on their split **and** ours |
+| 11 | `11_tomasov_cnn_baseline` | Tomasov's CNN from IEEE Access §III-E, with the RDFT front end |
+| 12 | `12_spatial_confound_ablation` | leave-one-domain-out + recording-identity probe — **decides the headline claim** |
+
+### Notebooks 10–12: published baselines and the confound check
+
+`dasfe/baselines.py` reproduces each dataset's own CNN rather than a generic one:
+
+- **Cao et al. 2023** — their released `models.py` verbatim: a *2D* CNN over the whole
+  10000×12 record, **7,421 parameters**, per-sample min-max scaling to 0–255. Verified to
+  reproduce their documented tensor shapes `(5,99,7)` then `(10,10,4)`.
+- **Tomasov et al. 2025** — transcribed from IEEE Access §III-E (64/256 Conv1D filters,
+  LeakyReLU, pool 4, `Dense(256)` sigmoid, softmax) with the **RDFT front end of §III-C**,
+  because that paper explicitly rejects raw time-domain input. `dense_units=1024`
+  reproduces Table 21 of the manuscript (33,155,849 params) for traceability.
+- RDFT redundancy factor **6** is *inferred* from their two stated facts (2048 bins ↔
+  0–833 Hz at 20 kHz); recorded in `tomasov_cnn_assumptions.json`.
+
+Notebook 12's recording-identity probe holds the event class fixed and asks each domain to
+predict *which recording* a window came from. It was validated on synthetic data with a
+planted fingerprint: it flagged the planted domain at +39 to +45 pp above chance and left
+the others at or below chance.
 
 Set `SMOKE_TEST = True` for a fast end-to-end validation of the whole chain (~60 windows
 per class), then `SMOKE_TEST = False` for the real run.

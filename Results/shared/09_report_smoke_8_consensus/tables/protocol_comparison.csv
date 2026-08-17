@@ -1,0 +1,11 @@
+Aspect,Submitted,Revised
+Datasets,1 (Tomasov),2 (Tomasov + Cao)
+Split,random stratified 80/10/10,group-aware: session (Cao) / blocked segment + guard band (Tomasov)
+Test windows sharing raw samples with train,100%,0% (verified programmatically)
+Cao official split,n/a,rejected - 423/441 sessions span train and test
+Feature selection,fitted once on the full training set,re-fitted inside every CV fold; optimism quantified
+Resampling,applied to the training set,"inside an imblearn Pipeline, per fold"
+Scaling,not stated,"StandardScaler inside the pipeline, training folds only"
+Feature extraction cost,4 separate passes (~23 h total),"1 pass, all 4 domains, chunked and resumable"
+External validity,argued Cao was unusable,parallel benchmark + harmonised 4-class cross-system transfer
+Class ablation framing,reported as improved performance,reported as class-difficulty accounting; full taxonomy is the headline

@@ -1,0 +1,4 @@
+metric,released 8:2 (%),session-grouped (%),drop (pp)
+accuracy,92.7,91.13,1.58
+balanced_accuracy,92.45,91.13,1.33
+f1_macro,92.47,90.88,1.59

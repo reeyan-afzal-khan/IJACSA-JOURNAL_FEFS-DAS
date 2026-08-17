@@ -1,0 +1,3 @@
+Dataset,Classes,Split protocol,Feature set,Features,Model,Balancing,Accuracy (%),Balanced acc. (%),Macro-F1 (%),CV macro-F1 (%),Inference (ms/sample)
+Cao et al. 2023,6,session-grouped,full_1002,74,LogisticRegression,smote_tomek,97.297,97.619,98.18,87.39,0.02829
+Tomasov et al. 2025,9,blocked segment + guard band,full_1002,33,HistGradientBoosting,smote_tomek,68.571,67.396,56.019,50.28,7.56863

@@ -1,0 +1,3 @@
+Dataset,Classes,Split protocol,Feature set,Features,Model,Balancing,Accuracy (%),Balanced acc. (%),Macro-F1 (%),CV macro-F1 (%),Inference (ms/sample)
+Cao et al. 2023,6,session-grouped,full_1002,1002,LightGBM,undersample,99.057,98.98,98.897,98.51,0.06238
+Tomasov et al. 2025,9,blocked segment + guard band,full_1002,1002,LightGBM,borderline_smote,90.709,81.972,81.978,78.6,0.17157

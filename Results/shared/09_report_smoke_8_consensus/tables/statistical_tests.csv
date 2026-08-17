@@ -1,0 +1,3 @@
+dataset,friedman_chi2,friedman_p,iman_davenport_F,critical_difference,best_model,best_avg_rank
+cao,25.151,0.0003201989949434022,11.591,3.677,LogisticRegression,2.333
+tomasov,24.712,0.00015838590558374884,23.364,3.078,HistGradientBoosting,1.5

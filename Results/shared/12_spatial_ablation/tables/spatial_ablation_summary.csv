@@ -1,0 +1,3 @@
+dataset,full 1002 macro-F1,no-spatial 941 macro-F1,spatial-only macro-F1,spatial recording-ID above chance (pp),verdict
+tomasov,81.80550482859827,62.13339605384278,75.56102273506306,12.89,GENUINE
+cao,98.88681483419934,93.74695577126126,95.55352606962671,37.96,CONFOUNDED
