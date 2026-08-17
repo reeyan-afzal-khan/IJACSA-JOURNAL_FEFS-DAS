@@ -1,0 +1,4 @@
+protocol,cv_f1_macro,ci95_low,ci95_high
+selection fitted once on full train (submitted),93.85,93.42,94.28
+selection re-fitted inside each fold (revised),94.04,91.93,96.15
+optimism (pp),-0.19,,

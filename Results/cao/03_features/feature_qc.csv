@@ -1,0 +1,6 @@
+domain,n_features,n_windows,non_finite,constant_cols,near_constant,max_abs,mem_MB
+time,112,15418,0,7,9,8192.0,6.9
+freq,90,15418,0,14,16,32258504.0,5.6
+tf,739,15418,0,0,5,28548.85546875,45.6
+spatial,61,15418,0,15,22,192222.390625,3.8
+TOTAL,1002,15418,0,36,52,32258504.0,61.9

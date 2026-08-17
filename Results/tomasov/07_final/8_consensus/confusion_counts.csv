@@ -1,0 +1,10 @@
+,car,construction,fence,longboard,manipulation,openclose,regular,running,walk
+car,853,74,735,6,0,1,48,0,55
+construction,74,2135,17,2,1,0,0,0,3
+fence,116,8,1596,6,0,10,178,0,69
+longboard,17,1,0,563,0,0,0,0,0
+manipulation,4,0,0,2,852,7,0,2,0
+openclose,24,0,24,27,0,42,0,0,81
+regular,42,0,504,1,0,0,560,0,4
+running,35,0,0,28,85,46,0,735,0
+walk,157,1,40,3,3,3,0,30,1424

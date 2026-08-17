@@ -1,0 +1,21 @@
+{
+  "dataset": "tomasov",
+  "smoke_test": false,
+  "n_windows": 172458,
+  "n_jobs": 10,
+  "wall_clock_seconds": 4959.38,
+  "windows_per_second": 34.77,
+  "per_domain_ms_per_window": {
+    "time": 43.164,
+    "freq": 3.354,
+    "tf": 60.672,
+    "spatial": 37.403,
+    "TOTAL": 144.594
+  },
+  "feature_counts": {
+    "time": 112,
+    "freq": 90,
+    "tf": 739,
+    "spatial": 61
+  }
+}

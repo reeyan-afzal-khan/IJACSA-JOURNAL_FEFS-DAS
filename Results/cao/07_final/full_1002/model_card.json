@@ -1,0 +1,52 @@
+{
+  "dataset": "cao",
+  "model": "LightGBM",
+  "balancing": "undersample",
+  "n_features": 1002,
+  "feature_set": "full multi-domain",
+  "n_classes": 6,
+  "classes": [
+    "background",
+    "dig",
+    "knock",
+    "shake",
+    "walk",
+    "water"
+  ],
+  "n_train": 12155,
+  "n_test": 1803,
+  "test": {
+    "accuracy": 99.057,
+    "balanced_accuracy": 98.98,
+    "precision_macro": 98.818,
+    "recall_macro": 98.98,
+    "f1_macro": 98.897,
+    "f1_weighted": 99.057
+  },
+  "train_seconds": 41.41,
+  "inference_ms_per_sample": 0.06238,
+  "hardest_classes": [
+    "walk",
+    "water",
+    "dig"
+  ],
+  "top_error_mode": {
+    "true": "water",
+    "predicted": "walk",
+    "pct_of_true": 1.3761467889908259,
+    "n": 3
+  },
+  "top10_features": [
+    "SPAT:st_skew",
+    "SPAT:sp_skew",
+    "SPAT:st_t_entropy",
+    "SPAT:st_entropy",
+    "SPAT:sp_gini",
+    "TF:DWT_L5_zcr",
+    "SPAT:sp_kurt",
+    "SPAT:sp_grad_std",
+    "SPAT:st_traj_var",
+    "SPAT:st_anisotropy"
+  ],
+  "ablation_inflation_pp": 0.79
+}

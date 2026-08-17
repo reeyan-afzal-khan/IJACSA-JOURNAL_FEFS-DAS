@@ -1,0 +1,4 @@
+check,status,detail
+groups of 'session_id' disjoint across splits,PASS,
+no duplicate sample_id,PASS,
+all classes present in all splits,PASS,

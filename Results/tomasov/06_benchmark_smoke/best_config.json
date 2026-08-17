@@ -1,0 +1,18 @@
+{
+  "dataset": "tomasov",
+  "feature_set": "multi_domain_full",
+  "n_features": 1002,
+  "best_model": "HistGradientBoosting",
+  "best_strategy": "smote_tomek",
+  "val_f1_macro": 0.7284290872526166,
+  "test_accuracy": 0.8,
+  "test_balanced_accuracy": 0.7822916666666666,
+  "test_f1_macro": 0.6768281101614435,
+  "cv_f1_macro_mean": 0.5028291943558576,
+  "cv_f1_ci95": [
+    0.4266532543975201,
+    0.5790051343141951
+  ],
+  "train_seconds": 39.14782039999773,
+  "inference_ms_per_sample": 7.205265714271393
+}

@@ -1,0 +1,21 @@
+{
+  "dataset": "cao",
+  "smoke_test": true,
+  "n_windows": 360,
+  "n_jobs": 10,
+  "wall_clock_seconds": 1.46,
+  "windows_per_second": 246.41,
+  "per_domain_ms_per_window": {
+    "time": 41.916,
+    "freq": 3.364,
+    "tf": 59.808,
+    "spatial": 17.491,
+    "TOTAL": 122.579
+  },
+  "feature_counts": {
+    "time": 112,
+    "freq": 90,
+    "tf": 739,
+    "spatial": 61
+  }
+}

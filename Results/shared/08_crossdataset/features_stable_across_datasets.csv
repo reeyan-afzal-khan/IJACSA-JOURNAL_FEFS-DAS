@@ -1,0 +1,6 @@
+feature,cao,tomasov
+TF:Et_min,100.0,100.0
+TF:Et_p25,100.0,100.0
+TF:Et_range,100.0,100.0
+TF:flux_max,100.0,100.0
+TIME:energy_gini,100.0,100.0

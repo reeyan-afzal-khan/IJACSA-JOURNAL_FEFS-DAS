@@ -1,0 +1,55 @@
+{
+  "dataset": "tomasov",
+  "model": "LightGBM",
+  "balancing": "smote",
+  "n_features": 52,
+  "feature_set": "8/8 consensus",
+  "n_classes": 9,
+  "classes": [
+    "car",
+    "construction",
+    "fence",
+    "longboard",
+    "manipulation",
+    "openclose",
+    "regular",
+    "running",
+    "walk"
+  ],
+  "n_train": 148229,
+  "n_test": 11334,
+  "test": {
+    "accuracy": 77.29,
+    "balanced_accuracy": 72.879,
+    "precision_macro": 76.323,
+    "recall_macro": 72.879,
+    "f1_macro": 73.589,
+    "f1_weighted": 76.886
+  },
+  "train_seconds": 63.04,
+  "inference_ms_per_sample": 0.14517,
+  "hardest_classes": [
+    "openclose",
+    "car",
+    "regular"
+  ],
+  "top_error_mode": {
+    "true": "regular",
+    "predicted": "fence",
+    "pct_of_true": 45.364536453645364,
+    "n": 504
+  },
+  "top10_features": [
+    "SPAT:st_grad_t_energy",
+    "SPAT:st_grad_c_energy",
+    "SPAT:st_entropy",
+    "SPAT:st_burstiness",
+    "SPAT:st_t_skew",
+    "SPAT:st_vel_std",
+    "FREQ:bandP_1",
+    "SPAT:st_traj_var",
+    "TF:tfband_2",
+    "TF:DWT_L0_zcr"
+  ],
+  "ablation_inflation_pp": 12.59
+}

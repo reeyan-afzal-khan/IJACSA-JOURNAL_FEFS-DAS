@@ -1,0 +1,18 @@
+{
+  "dataset": "tomasov",
+  "feature_set": "consensus",
+  "n_features": 52,
+  "best_model": "LightGBM",
+  "best_strategy": "smote",
+  "val_f1_macro": 0.7477364546750389,
+  "test_accuracy": 0.7728957120169402,
+  "test_balanced_accuracy": 0.7287930034158543,
+  "test_f1_macro": 0.7358949507105252,
+  "cv_f1_macro_mean": 0.662526473322713,
+  "cv_f1_ci95": [
+    0.6019504950998404,
+    0.7231024515455855
+  ],
+  "train_seconds": 68.41513649199624,
+  "inference_ms_per_sample": 0.14153644520928582
+}

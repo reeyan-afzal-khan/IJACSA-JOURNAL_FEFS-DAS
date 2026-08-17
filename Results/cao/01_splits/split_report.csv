@@ -1,0 +1,8 @@
+label,test,train,val,test_groups,train_groups,val_groups
+background,227,2311,407,4,50,9
+dig,370,1931,211,10,59,6
+knock,622,1802,106,12,43,5
+shake,134,2533,61,3,58,2
+walk,232,1844,374,4,46,8
+water,218,1734,301,11,95,16
+TOTAL,1803,12155,1460,44,351,46

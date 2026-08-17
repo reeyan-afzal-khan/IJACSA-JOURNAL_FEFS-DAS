@@ -1,0 +1,52 @@
+{
+  "dataset": "cao",
+  "model": "LogisticRegression",
+  "balancing": "smote_tomek",
+  "n_features": 74,
+  "feature_set": "8/8 consensus",
+  "n_classes": 6,
+  "classes": [
+    "background",
+    "dig",
+    "knock",
+    "shake",
+    "walk",
+    "water"
+  ],
+  "n_train": 281,
+  "n_test": 37,
+  "test": {
+    "accuracy": 97.297,
+    "balanced_accuracy": 97.619,
+    "precision_macro": 98.958,
+    "recall_macro": 97.619,
+    "f1_macro": 98.18,
+    "f1_weighted": 97.237
+  },
+  "train_seconds": 2.05,
+  "inference_ms_per_sample": 0.02829,
+  "hardest_classes": [
+    "dig",
+    "knock",
+    "background"
+  ],
+  "top_error_mode": {
+    "true": "dig",
+    "predicted": "knock",
+    "pct_of_true": 14.285714285714285,
+    "n": 1
+  },
+  "top10_features": [
+    "SPAT:st_skew",
+    "FREQ:bandP_6",
+    "TF:das_tonal_ratio",
+    "SPAT:st_grad_c_energy",
+    "SPAT:sp_skew",
+    "TF:glcm_65_contrast_d4_a1",
+    "TF:Et_min",
+    "TF:WPT_aaaa_entropy",
+    "SPAT:st_hist_contrast",
+    "SPAT:st_grad_t_energy"
+  ],
+  "ablation_inflation_pp": -11.51
+}

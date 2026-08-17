@@ -1,0 +1,18 @@
+{
+  "dataset": "cao",
+  "feature_set": "multi_domain_full",
+  "n_features": 1002,
+  "best_model": "LogisticRegression",
+  "best_strategy": "smote_tomek",
+  "val_f1_macro": 0.8598484848484849,
+  "test_accuracy": 1.0,
+  "test_balanced_accuracy": 1.0,
+  "test_f1_macro": 1.0,
+  "cv_f1_macro_mean": 0.873928128930193,
+  "cv_f1_ci95": [
+    0.8198183952017226,
+    0.9280378626586634
+  ],
+  "train_seconds": 1.349253161024535,
+  "inference_ms_per_sample": 0.07134935161023326
+}

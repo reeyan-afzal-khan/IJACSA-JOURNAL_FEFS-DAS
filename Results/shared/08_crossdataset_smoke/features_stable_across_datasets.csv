@@ -1,0 +1,10 @@
+feature,cao,tomasov
+SPAT:st_burstiness,100.0,100.0
+SPAT:st_entropy,100.0,100.0
+SPAT:st_grad_c_energy,100.0,100.0
+SPAT:st_grad_t_energy,100.0,100.0
+SPAT:st_t_skew,100.0,100.0
+TF:Et_p25,100.0,100.0
+TF:WPT_aaaa_iqr,100.0,100.0
+TF:WPT_aaaa_mad,100.0,100.0
+TF:tf_ridge_density,100.0,100.0

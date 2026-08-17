@@ -1,0 +1,11 @@
+label,test,train,val,test_groups,train_groups,val_groups
+car,1772,25303,1934,2,31,3
+construction,2232,23041,2147,1,8,1
+fence,1983,33432,2700,3,24,2
+longboard,581,11671,1052,1,16,2
+manipulation,867,13519,1163,1,8,1
+openclose,198,5280,336,1,8,1
+regular,1111,10272,966,1,8,1
+running,929,10811,1057,1,8,1
+walk,1661,14900,1540,2,16,2
+TOTAL,11334,148229,12895,13,127,14

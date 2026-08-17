@@ -1,0 +1,52 @@
+{
+  "dataset": "cao",
+  "model": "LightGBM",
+  "balancing": "borderline_smote",
+  "n_features": 53,
+  "feature_set": "8/8 consensus",
+  "n_classes": 6,
+  "classes": [
+    "background",
+    "dig",
+    "knock",
+    "shake",
+    "walk",
+    "water"
+  ],
+  "n_train": 12155,
+  "n_test": 1803,
+  "test": {
+    "accuracy": 94.398,
+    "balanced_accuracy": 93.364,
+    "precision_macro": 93.228,
+    "recall_macro": 93.364,
+    "f1_macro": 93.084,
+    "f1_weighted": 94.358
+  },
+  "train_seconds": 7.86,
+  "inference_ms_per_sample": 0.07028,
+  "hardest_classes": [
+    "walk",
+    "shake",
+    "background"
+  ],
+  "top_error_mode": {
+    "true": "walk",
+    "predicted": "background",
+    "pct_of_true": 9.913793103448276,
+    "n": 23
+  },
+  "top10_features": [
+    "FREQ:spec_rolloff85",
+    "SPAT:st_hist_contrast",
+    "TF:DWT_L6_entropy",
+    "TIME:p1",
+    "TF:Et_min",
+    "FREQ:peak_count",
+    "TF:WPT_ddaa_entropy",
+    "TF:stft_skew",
+    "TF:DWT_L2_entropy",
+    "TF:DWT_L1_entropy"
+  ],
+  "ablation_inflation_pp": 4.53
+}

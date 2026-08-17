@@ -1,0 +1,17 @@
+recording,label,PulseRate_Hz,NumberOfLoci,SpatialSampling_m,PulseWidth_ns,Vendor
+auto2_2023-04-17T124510+0100,car,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+auto4_2023-06-06T144655+0100,car,20000.0,1663,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+auto4_2023-06-06T145055+0100,car,20000.0,1663,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+auto_2023-04-17T124152+0100,car,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+fence_2023-04-17T123117+0100,fence,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+kopani_plot_2023-11-07T150207Z,fence,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+longboard_2023-04-17T123543+0100,longboard,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+longboardroad_2023-04-17T123638+0100,longboard,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+manipulation_2023-04-17T122847+0100,manipulation,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+openingclosing_2023-04-17T122658+0100,openclose,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+plot_2023-11-07T150119Z,fence,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+reconstruction1_2023-06-06T150714+0100,construction,20000.0,1663,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+regularshit_2023-04-17T130103+0100,regular,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+running_2023-04-17T122413+0100,running,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+walking2_2023-04-17T122153+0100,walk,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
+walking_2023-04-17T121933+0100,walk,20000.0,1700,1.021,20.0,OptaSense IU Setup 1.8.6 c9c
